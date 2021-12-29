@@ -1,0 +1,43 @@
+body{
+    padding:0;
+    background:url("../image/backGround.jpg") no-repeat;
+    background-size: cover;
+    margin-bottom: 8em;
+}
+
+#king{
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#container{
+    /*background: #2aabd2;*/
+    width: 680px;
+    height: 680px;
+    position: absolute;
+    top: 29px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background:url("../image/hello.gif") no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.rubbish{
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    background:url("../image/rubbish.png") no-repeat;
+}

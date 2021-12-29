@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>冒险开始</title>
+	<link rel="stylesheet" href="css/kort.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-list.svg'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
+	<link href="./css/table.css" rel="stylesheet" type="text/css" />
+	<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+
+		<h2 style="font-size: 50px;font-weight: bold;display: inline-block; text-align:center; color: white" >谁会是最后的猴子大王呢？</h2>
+		<audio id="audio" src="audio/start.mp3"></audio>
+		<audio id="bookAudio" src="audio/book.mp3"></audio>
+		<div class="lunbo_div">
+			<div>
+				<img class="cup" src="./image/cup.png" />
+				<span class="span_bm">
+                <span class="today_title">猴王榜单</span>
+                <br />
+					<!--                <span class="totady_pers">100</span>-->
+            </span>
+			</div>
+			<div id="bm_content" class="bm_content">
+				<table class="table table-condensed ">
+					<thead style="position: fixed; background-color: #eeeeee; ">
+					<tr>
+						<th style=" width: 60px; text-align: right;">猴王名称</th>
+						<th style="width: 100px; text-align: center;">打败猴数</th>
+						<th style=" width: 80px; padding-right: 20px;">选举时间</th>
+					</tr>
+					</thead>
+					<tbody id="tb1"></tbody>
+					<tbody id="tb2"></tbody>
+				</table>
+			</div>
+		</div>
+		<img src="image/board.png" id="board" height="400">
+		<div class="thumb kort">
+			<img src="image/lanren5.gif" width="600" height="600">
+			<img src="image/lanren1.png" width="600" height="600">
+			<img src="image/lanren2.png" width="600" height="600">
+			<img src="image/lanren3.png" width="600" height="600">
+			<img src="image/lanren4.png" width="600" height="600">
+			<img src="image/lanren6.png" width="600" height="600">
+
+		</div>
+		<div id="startDiv">
+			<button id="startBut" onclick="loginOnclicked()">
+			</button>
+		</div>
+		<script src="js/kort.js"></script>
+		<script src="js/slide.js"></script>
+
+		<script>
+			if( navigator.userAgent.match( /firefox/gi ) ) {
+				[].slice.call( document.querySelectorAll( '.thumb img' ) ).forEach(function( el ) { el.style.boxShadow = 'none'; });
+			}
+		</script>
+
+
+</body>
+</html>

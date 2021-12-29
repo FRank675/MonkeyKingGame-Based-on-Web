@@ -1,0 +1,66 @@
+html{
+    position:relative;
+    min-height: 100%;
+//font-size:62.5%;
+}
+body{
+    padding:0;
+    background:url("../image/monkey2.jpg") no-repeat;
+    background-size: cover;
+    margin-bottom: 8em;
+}
+
+#menu{
+    height: 300px;
+    width: 200px;
+    border: #2aabd2;
+    border-radius: 10px;
+    border-width: 10px;
+}
+#startButton,#stopButton{
+    background-color: yellow;
+    border-radius:50%;
+    height: 60px;
+    width: 60px;
+}
+#place{
+    height: 410px;
+    width: 900px;
+    position: absolute;
+    top: 235px;
+    left: 290px;
+    padding: 50px;
+}
+.rubbish{
+    width: 200px;
+    height: 200px;
+    /*backgroud:rgba(0,0,0,0);*/
+    float: left;
+    background:url("../image/rubbish.png") no-repeat;
+}
+.InitMonkey{
+
+    width: 200px;
+    height: 200px;
+    /*backgroud:rgba(0,0,0,0);*/
+    float: left;
+    background:url("../image/king0.png") no-repeat;
+
+}
+.monkey{
+
+    width: 200px;
+    height: 200px;
+    /*backgroud:rgba(0,0,0,0);*/
+    float: left;
+    background:url("../image/monkeys.png") no-repeat;
+
+}
+
+#monkey1{
+    float: left;
+
+}
+
+
+
